@@ -1,0 +1,18 @@
+{{ if .Params.act}}<h2 class="act">Act {{ .Params.act }}</h2>{{ end }}
+<div class="beatsheet beatsheet-summary">
+    <div class="beatsheet-content">
+     
+<div class="row">
+  <div class="col-12 col-md-4 col-sm-6">
+      <h3 class="beatsheet-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <p class="page-nos">Pages: {{ .Params.pages }}</p>
+        <p class="beatsheet-summary">{{ .Params.summary }}</p>
+  </div>
+  <div class="col-12 col-md-8 col-sm-6 beatsheet-response">{{ .Content  }}</div>
+</div>
+
+    
+  </div>
+</div>

@@ -1,0 +1,30 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-services-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-9 col-lg-9 order-2 order-md-1">
+        {{ .Content }}
+      </div>
+      {{ if .Params.intro_image }}
+      <div class="col-12 col-md-3 col-lg-3 order-1 order-md-2 position-relative">
+        <img
+          class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
+          src="{{ .Params.intro_image | relURL }}" />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-2 pb-md-5">
+  <div class="row">
+    {{ range .Pages.ByWeight }}
+    <div class="col-12 col-md-12 mb-2 py-3">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

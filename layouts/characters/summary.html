@@ -1,0 +1,12 @@
+<div class="team team-summary">
+  {{ if .Params.image }}
+  <div class="team-image">
+    <a href="{{.Permalink}}"><img alt="{{ .Title }}" class="img-fluid mb-2" src="{{ .Params.image | relURL }}" /></a>
+  </div>
+  {{ end }}
+  <div class="team-meta">
+    <h2 class="team-name"><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+    <p class="team-description">{{ .Params.Jobtitle }}</p>
+    {{ if .Params.role}}<p>{{ .Params.role }}</p>{{ end }}
+  </div> 
+</div>

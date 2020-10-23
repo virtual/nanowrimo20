@@ -1,0 +1,50 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-characters-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+<div class="container pb-3 pt-3 pt-md-4 pb-md-4">
+  
+    <h1 class="title">{{.Title}}</h1>
+  <div class="char-info">
+
+      <div class="card">
+        <img alt="{{ .Title }}" class="card-img-top" src="{{ .Params.image | relURL }}" />
+        <div class="card-body">
+            
+          <p class="card-text">{{.Params.role}} <br/>{{ .Params.age }}, {{ .Params.jobtitle }} </p>
+        </div>
+      </div>
+
+    {{ range .Params.attributes }}
+    {{ if . }}
+    <div class="card">
+        {{ if .image }}<img src="{{.image | relURL }}" class="card-img-top" alt=""/>{{end}}  
+      <div class="card-body">
+        <h5 class="card-title">{{ .label }} </h5>
+        <p class="card-text">{{ .value }} </p>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+
+
+
+  </div>
+  <div class="content">{{.Content}}</div>
+
+</div>
+</div>
+{{ end }}
+
+{{ define "footer_js" }}
+{{ $library := resources.Get "js/libs/library.js" }}
+{{ $services := resources.Get "js/pages/services.js" }}
+{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+{{ end }}
