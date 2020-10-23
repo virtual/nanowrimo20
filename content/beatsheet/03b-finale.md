@@ -5,8 +5,3 @@ summary: This time around, the main character incorporates the Theme – the nug
 weight: 22
 archive: #You will not be able to return. And… we will have to kill you off. #She considers those around me: “It’s okay, I’ve had enough fame for my lifetime.”
 ---
-
-Asks to give the audience member acting skills. Watch for cues, etc.
-
-Fools the kidnapper by using her acting skills along with the help from the audience member/actor.
-

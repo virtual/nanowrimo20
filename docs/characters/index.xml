@@ -2,62 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Characters on NaNoWriMo</title>
-    <link>https://virtual.github.io/nanowrimo/characters/</link>
+    <link>https://virtual.github.io/nanowrimo20/characters/</link>
     <description>Recent content in Characters on NaNoWriMo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://virtual.github.io/nanowrimo/characters/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://virtual.github.io/nanowrimo20/characters/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reyna Mae Roebuck</title>
-      <link>https://virtual.github.io/nanowrimo/characters/reyna-mae/</link>
+      <title>Cindy Williams</title>
+      <link>https://virtual.github.io/nanowrimo20/characters/cindy-williams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://virtual.github.io/nanowrimo/characters/reyna-mae/</guid>
-      <description>An actor and science teacher</description>
+      <guid>https://virtual.github.io/nanowrimo20/characters/cindy-williams/</guid>
+      <description>An aspiring professional with a few issues</description>
     </item>
     
     <item>
-      <title>Jack Steele Huron</title>
-      <link>https://virtual.github.io/nanowrimo/characters/jack-huron/</link>
+      <title>Friend</title>
+      <link>https://virtual.github.io/nanowrimo20/characters/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://virtual.github.io/nanowrimo/characters/jack-huron/</guid>
-      <description>An actor and science teacher</description>
-    </item>
-    
-    <item>
-      <title>Francisco Roebuck</title>
-      <link>https://virtual.github.io/nanowrimo/characters/francisco/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://virtual.github.io/nanowrimo/characters/francisco/</guid>
-      <description>Father / Journalist</description>
-    </item>
-    
-    <item>
-      <title>Colin Manley</title>
-      <link>https://virtual.github.io/nanowrimo/characters/colin-manley/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://virtual.github.io/nanowrimo/characters/colin-manley/</guid>
-      <description>Reyna&amp;rsquo;s friend</description>
-    </item>
-    
-    <item>
-      <title>Corina Berry Roebuck</title>
-      <link>https://virtual.github.io/nanowrimo/characters/corina/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://virtual.github.io/nanowrimo/characters/corina/</guid>
-      <description>Reyna idolises Corina.</description>
-    </item>
-    
-    <item>
-      <title>Arlo Danika Berry</title>
-      <link>https://virtual.github.io/nanowrimo/characters/arlo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://virtual.github.io/nanowrimo/characters/arlo/</guid>
-      <description>Generally harmonious.</description>
+      <guid>https://virtual.github.io/nanowrimo20/characters/friend/</guid>
+      <description>An kind-hearted friend</description>
     </item>
     
   </channel>

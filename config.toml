@@ -1,4 +1,4 @@
-baseURL = "https://virtual.github.io/nanowrimo/"
+baseURL = "https://virtual.github.io/nanowrimo20/"
 title = "NaNoWriMo"
 languageCode = "en-us"
 themesDir = "themes"
@@ -12,13 +12,13 @@ theme = "hugo-serif-theme"
   [params.logo]
     mobile = "images/logo-nano.svg"
     standard  = "images/logo-nano.svg"
-    alt = "NaNoWriMo - A planning reference"
+    alt = "NaNoWriMo 2020 - A planning reference"
 
   [params.homepage_meta_tags]
     meta_description = "A planning reference for NaNoWriMo"
-    meta_og_title = "NaNoWriMo Template"
+    meta_og_title = "NaNoWriMo 2020 Template"
     meta_og_type = "website"
-    meta_og_url = "http://virtual.github.io/nanowrimo/"
+    meta_og_url = "http://virtual.github.io/nanowrimo20/"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
     meta_og_description = "A planning reference for NaNoWriMo"
     meta_twitter_card = "summary"
@@ -45,4 +45,3 @@ theme = "hugo-serif-theme"
     name = "Home"
     url = "/"
       weight = 1
- 
